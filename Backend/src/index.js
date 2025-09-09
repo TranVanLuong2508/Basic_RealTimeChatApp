@@ -7,12 +7,12 @@ import cookieParser from "cookie-parser"
 import cors from "cors"
 import path from "path"
 import { app, server } from "./lib/socket.js"
-
-const port = process.env.PORT
-const frontend_url = process.env.REACT_URL
 const __dirname = path.resolve()
 
 dotenv.config()
+
+const port = process.env.PORT
+const frontend_url = process.env.REACT_URL
 app.use(express.json({ limit: "10mb" }))
 app.use(cookieParser({ limit: "10mb" }))
 app.use(cors({
