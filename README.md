@@ -51,49 +51,59 @@ A real-time chat application built with React.js and Node.js, featuring instant 
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/your-username/realtime-chat-app.git
-   cd realtime-chat-app
+   git clone https://github.com/TranVanLuong2508/Basic_RealTimeChatApp.git
+   cd Basic_RealTimeChatApp
    ```
 
 2. **Install server dependencies**
    ```bash
-   cd server
+   cd Backend
    npm install
    ```
 
 3. **Install client dependencies**
    ```bash
-   cd ../client
+   cd ../Fronted
    npm install
    ```
 
 4. **Configure environment variables**
    
-   Create `.env` file in `server/` directory:
+   Create `.env` file in `Backend/` directory:
    ```env
-   PORT=5000
-   JWT_SECRET=your-jwt-secret-key
-   MONGODB_URI=your-mongodb-connection-string
-   CLIENT_URL=http://localhost:3000
+   MONGODB_URI=[your URI]
+   
+   PORT=[your-Backend-port]
+   
+   JWT_SECRET=[your-secret]
+   
+   
+   REACT_URL=[your-Frontend-URL]
+   
+   CLOUDINARY_CLOUD_NAME=dpfbad8fi
+   CLOUDINARY_API_KEY=[your-cloudinary-key]
+   CLOUDINARY_API_SECRET=[your-cloudinary-secret-API]
+   
+   NODE_ENV=development
    ```
 
 5. **Run the application**
 
    Terminal 1 - Run server:
    ```bash
-   cd server
+   cd Backend
    npm run dev
    ```
 
    Terminal 2 - Run client:
    ```bash
-   cd client
-   npm start
+   cd Frontend
+   npm run dev
    ```
 
 6. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
+   - Frontend: http://localhost:[your-Backend-port]
+   - Backend API: http://localhost:[your-Frontend-port]
 
 ## Theme Customization
 
