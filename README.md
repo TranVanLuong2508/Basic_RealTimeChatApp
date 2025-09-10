@@ -6,6 +6,11 @@ A real-time chat application built with React.js and Node.js, featuring instant 
 
 **🌐 Live Demo:** [Click here to try the app](https://basic-realtimechatapp.onrender.com/)
 
+## Development Repositories (Original Source Code)
+- **Frontend (React.js):** [Frontend](https://github.com/TranVanLuong2508/Chatty-Frontend)
+- **Backend (Node.js):** [Backend](https://github.com/TranVanLuong2508/Chatty-Backend)
+
+
 ### 🔐 Demo Accounts for Testing
 
 | Username | Password |
