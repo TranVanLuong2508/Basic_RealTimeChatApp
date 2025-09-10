@@ -15,8 +15,8 @@ A real-time chat application built with React.js and Node.js, featuring instant 
 
 | Username | Password |
 |----------|----------|
-| emma.thompson@example.com | 123456 |
-| olivia.miller@example.com | 123456 |
+| test@gmail.com | 123456 |
+| test2@gmail.com | 123456 |
 
 *Note: You can register a new account or use the demo accounts above to experience the application.*
 
