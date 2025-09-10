@@ -85,7 +85,7 @@ A real-time chat application built with React.js and Node.js, featuring instant 
    
    REACT_URL=[your-Frontend-URL]
    
-   CLOUDINARY_CLOUD_NAME=dpfbad8fi
+   CLOUDINARY_CLOUD_NAME=[your-cloudinary-name]
    CLOUDINARY_API_KEY=[your-cloudinary-key]
    CLOUDINARY_API_SECRET=[your-cloudinary-secret-API]
    
